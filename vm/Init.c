@@ -1455,6 +1455,7 @@ static bool dvmInitJDWP(void)
  *
  * Returns 0 on success.
  */
+DVM_EXPORT
 int dvmPrepForDexOpt(const char* bootClassPath, DexOptimizerMode dexOptMode,
     DexClassVerifyMode verifyMode, int dexoptFlags)
 {
